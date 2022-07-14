@@ -1,0 +1,8 @@
+1. Empty snippet address of the step: Похоже, что не найден снипет/описание шага из библиотеки шагов при выполнении теста
+2.  _4000200 preparation: При попытке попдключения расширения, файл с расширением не найден
+3.  _0051192 filling in Package unit when create new item: Убрали кнопку выбора, для поля Package unit, поле теперь заполнятся после записи
+4.  После нажатия FormDocumentBankReceiptGenarateBankReceipt (Скорее всего это ввод на основании), ожидается вывод пользовательского сообщения The total amount of the "Cash transfer order" document(s) is already received on the basis of the "Bank receipt" document(s), но этого не происходит и тест падает
+    Думаю самой кнопки ввода на основании нет
+5.  При проверки ввода на основании Cash receipt based on Cash transfer order, ожидалась таблица, PaymentList, но на форме ее нет.
+6. После проведения документов, не нашлось требуемой записи, по регистру накопления R3035T_CashPlanning
+7. _4000202 hardware: После нажатия кнопки Выбрать поля Workstation, ожидался список, в котором будет строка с наименоваение Workstation 01, но список оказался пустым
