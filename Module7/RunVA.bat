@@ -1,0 +1,1 @@
+"C:\Program Files\1cv8\8.3.20.1710\bin\1cv8c" /N"CI" /P"ci" /TestManager /Execute "D:\QA\vanessa-automation\vanessa-automation.epf" /IBConnectionString "File=""D:\QA\Base\TestIRP"";" /C"StartFeaturePlayer;QuietInstallVanessaExt;VAParams=D:\QA\Features\VanessaQA\Module7\VAParams.json"
